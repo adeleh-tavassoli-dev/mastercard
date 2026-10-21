@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+/* =========================
+   GLOBAL STYLES
+========================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e3f2fd;
+}
+
+.container{
+    position: relative;
+    padding: 25px;
+    border-radius: 28px;
+    max-width: 380px;
+    width: 100%;
+    background-image: url(./images/dark-blue-background-in-polygonal-style-vector.png);
+    background-size: cover;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+header, .logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    width: 48px;
+    margin-right: 10px;
+}
+
+.logo h5{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+header .chip{
+    width: 50px;
+
+}
+
+.name-number h6{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.name-number h5.number{
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1.7px;
+    font-weight: 400;
+}
+.name-number h5.name{
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    margin-top: 35px;
+}
+
+.valid-date h6{
+    color: #fff;
+    font-weight: 400;
+
+}
+.valid-date h5{
+    color: #fff;
+    font-weight: 400;
+}
+
+.card-details{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 40px;
+}
